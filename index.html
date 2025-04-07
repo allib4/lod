@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A global hub for queer women: events, reviews, message boards, fashion, and more." />
+  <title>Lesbian On Demand</title>
+  <style>
+    :root {
+      --color1: #ffd5d5;
+      --color2: #fbb1b1;
+      --color3: #f28fb5;
+      --color4: #d06f9b;
+      --color5: #b55e8c;
+      --color6: #7a405f;
+      --color7: #4a2c35;
+    }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: var(--color1);
+      color: var(--color7);
+    }
+    header {
+      background: linear-gradient(to right, var(--color3), var(--color5));
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem auto;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: var(--color5);
+    }
+    .city-links, .reviews, .media-calendar, .businesses, .fashion {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+    footer {
+      background: var(--color7);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lesbian On Demand</h1>
+    <nav>
+      <a href="#cities">Cities</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#trending">Trending</a>
+      <a href="#media">Media</a>
+      <a href="#business">Biz</a>
+      <a href="#fashion">Fashion</a>
+    </nav>
+  </header>
+
+  <section id="cities">
+    <h2>City Boards + Events</h2>
+    <div class="city-links">
+      <strong>Atlanta:</strong> <a href="https://www.eventbrite.com/d/ga--atlanta/lesbian/" target="_blank">Atlanta Events</a><br/>
+      <strong>Los Angeles:</strong> <a href="https://www.eventbrite.com/d/ca--los-angeles/lesbian/" target="_blank">LA Events</a><br/>
+      <strong>New York:</strong> <a href="https://www.eventbrite.com/d/ny--new-york/lesbian/" target="_blank">NYC Events</a><br/>
+    </div>
+    <br/>
+    <div id="message-board">
+      <h3>Message Board</h3>
+      <p>Join the discussion for your city:</p>
+      <iframe src="https://disqus.com/embed/" title="Disqus message board"></iframe>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Product Reviews + Recommendations</h2>
+    <div class="reviews">
+      <a href="#">TomboyX Underwear – Best Styles of 2025 (Affiliate)</a>
+      <a href="#">Top 10 Lesbian-Owned Sex Toy Brands</a>
+      <a href="#">Women's Health Picks – Queer Wellness Tools</a>
+    </div>
+  </section>
+
+  <section id="trending">
+    <h2>Trending on TikTok & Instagram</h2>
+    <iframe src="https://rss.app/embed/v1/carousel/tiktok/top-lesbian-content" title="Trending Feed"></iframe>
+  </section>
+
+  <section id="media">
+    <h2>Lesbians in the Media – Monthly Releases</h2>
+    <div class="media-calendar">
+      <p><strong>April 2025:</strong> “The Wilds” S3, “Gen Q” Special, “Love Lies” docuseries</p>
+      <p><strong>May 2025:</strong> “Heartstopper” S3, “Amigas” pilot premiere</p>
+    </div>
+  </section>
+
+  <section id="business">
+    <h2>Queer Women-Owned Businesses</h2>
+    <div class="businesses">
+      <a href="#">NYC: Bluestockings Bookstore</a>
+      <a href="#">LA: The Ruby – Feminist Co-working</a>
+      <a href="#">ATL: Charis Books & More</a>
+    </div>
+  </section>
+
+  <section id="fashion">
+    <h2>Lesbian Fashion Trends</h2>
+    <div class="fashion">
+      <a href="#">Spring 2025 Tomboy Fits – Shop Now (Affiliate)</a>
+      <a href="#">Queer-Owned Fashion Labels You Should Know</a>
+      <a href="#">Sneaker Culture + Stud Vibes</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Lesbian On Demand. All rights reserved.</p>
+  </footer>
+</body>
+</html>
